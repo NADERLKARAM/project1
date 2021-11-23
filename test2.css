@@ -1,0 +1,34 @@
+body{
+    background-color: lightslategrey;
+ 
+}
+div{
+    background-color: red;
+
+    width: 1510px;
+    display: inline-block;
+    margin-top: -5%;
+    margin-left: -5%;
+    padding-right: 30px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    line-height: 20px;
+    direction: rtl;
+    color: aliceblue;
+    font-weight: 1000px;
+    letter-spacing: 2px;
+    line-height: 3px;
+    word-spacing: 30px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding-top: 250px;
+    
+}
+p{
+    text-align: center;
+    color: brown;
+}
+
