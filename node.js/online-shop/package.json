@@ -1,0 +1,22 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "description": "simple online shop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nader",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "connect-mongodb-session": "^3.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mogoose": "^0.0.1-security",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4"
+  }
+}

@@ -1,0 +1,22 @@
+<%- include('parts/header.ejs') %>
+<%- include('parts/navbar.ejs')%>
+
+<div class="contatiner">
+    <div class="row">
+        <div class="col col-12 col-md-6">
+            <img src="/<%= product.image %>">
+            <form action="/cart" method="POST">
+                <input type="number" name="amount" class="form-control">
+                <input type="submit" value="add to cart" class="btn btn-primaty">
+            </form>
+            </div>
+            <div class="col col-12 col-md-6"></div>
+            <h3><%= product.name %></h3>
+            <h5>Price: <%= product.Price %> $</h5>
+            <p><%= product.description %></p>
+
+    </div>
+
+</div>
+
+<%- include('parts/footer.ejs')%>
